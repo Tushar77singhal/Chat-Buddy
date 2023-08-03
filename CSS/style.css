@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
+
+.bg{
+  display: flex;
+  float: left;
+}
+
+/* display: block;
+margin: auto; */
+.logo{
+    margin-top: 8px;
+    margin-left: -484px;
+    width: 60px;
+    height: 60px;
+}
+
+h1{
+  color: white;
+  display: flex;
+  float: left;
+  margin-top: 42px;
+  margin-left: 200px;
+}
+
+body {
+  height: 100vh;
+  /* background-color: #F4D03F;
+  background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%); */
+  background-image: url(../images/peakpx.jpg);
+  padding: 0px;
+  margin: 0px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+h1 {
+  margin-top: 12px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  height: 70vh;
+  padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 23px;
+  border-radius: 50px;
+
+  border: 15px solid hsla(0, 0%, 100%, 0.5);
+  background-image: url(../images/peakpx2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.send {
+  margin-top: -100px;
+  width: 100%;
+}
+
+.message {
+  background-color: lightgreen;
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.left {
+  float: left;
+  clear: both;
+  color: white;
+  background-color: darkslategrey;
+}
+
+.right {
+  float: right;
+  clear: both;
+  color: white;
+  background-color: green;
+}
+
+#send-container {
+  width: 80%;
+  display: block;
+  position: relative;
+  margin-left: 10%;
+  top: 5%;
+  text-align: center;
+}
+
+#messageInp {
+  display: none;
+  position: relative;
+  top: 5%;
+}
+.btn {
+  font-size: 20px;
+  height: 30px;
+  color: white;
+  width: 150px;
+  border-radius: 6px;
+  border: 2px solid black;
+  background-color: forestgreen;
+  position: relative;
+}
